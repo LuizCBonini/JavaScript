@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 04</title>
+</head>
+<body>
+    <h1>Calculando o Troco</h1>
+    <input type="button" value="Comprar Produto!" onclick="msg()">
+
+    <script>
+        function msg() {
+            var produto = window.prompt('Qual o produto que você deseja?')
+            var valor = Number(window.prompt(`Qual o valor deste produto?`))
+            var pag = Number(window.prompt('Quant você dará em pagamento?'))
+
+            var troco = pag - valor
+            
+            
+            window.alert(`Você comprou ${produto} que custa ${valor}. \nDeu ${pag} e de troco receberá ${troco}`)
+        }
+    </script>
+</body>
+</html>
