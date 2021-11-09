@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 3</title>
+</head>
+<body>
+    <h1>Antes e depois</h1>
+    <input type="button" value="Antecessor e Sucessor" onclick="msg()">
+
+    <script>
+        function msg() {
+            var num = Number(window.prompt('Digite um número inteiro qualquer:'))
+            var ant = num - 1
+            var suc = num + 1
+            window.alert(`Antes de ${num} temos o ${ant}, e depois de ${num} temos ${suc}`)
+        }
+    </script>
+</body>
+</html>
