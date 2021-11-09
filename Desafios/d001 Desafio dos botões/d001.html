@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: rgb(255, 160, 160);
+            font: normal 15pt Arial;
+        }
+        div {
+            background-color: white;
+            padding: 10px;
+            margin: auto;
+            height: 300px;
+            border-radius: 20px;
+            border: 1px solid;
+            max-width: 500px;
+        }
+        input {
+            font: normal 16pt Arial;
+            height: 80px;
+            width: 120px;
+            margin: 20px;
+        }
+        h1 {
+            color: rgb(121, 71, 121);
+            text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.432);
+        }
+    </style>
+    <title>Desafio 1</title>
+</head>
+<body>
+    <div>
+        <h1>Desafio das mensagens</h1>
+        <input type="button" value="Botão 1" onclick="msg()">
+        <input type="button" value="Botão 2" onclick="msg2()">
+        <input type="button" value="Botão 3" onclick="msg3()">
+        <script>
+            function msg() {
+                window.alert('Você clicou no primemiro botão!')
+            }
+            function msg2() {
+                window.alert('Você clicou no segundo botão!')
+            }
+            function msg3() {
+                window.alert('Você clicou no terceiro botão!')
+            }
+        </script>
+    </div>
+</body>
+</html>
